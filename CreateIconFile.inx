@@ -5,7 +5,7 @@
 
     <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
 
-    <param type="path"   name="iconfilename" gui-text="Icon filename" mode="file_new" filetypes="*.ico">icon.ico</param>
+    <param type="string"  name="iconname" gui-text="Icon Name">icon.ico</param>
     <effect needs-live-preview="false">
         <object-type>all</object-type>
         <effects-menu>
